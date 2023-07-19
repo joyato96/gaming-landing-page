@@ -1,0 +1,34 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700;800&family=Work+Sans:wght@400;500;600;700;800&display=swap');
+
+
+/* shared styles */
+* {
+    font-family: 'Work Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+/* nav styles */
+.nave-info {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.nav-logo img {
+    width: 60px;
+    height: 30px;
+}
+
+.nave-info .nav-description {
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+.nav-text {
+    background: var(--linear, linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%));
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
