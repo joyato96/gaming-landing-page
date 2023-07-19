@@ -214,6 +214,27 @@
     padding-top: 4px;
 }
 
+/* banner img info container styles */
+.banner-img-container-info {
+    display: flex;
+    justify-content: space-around;
+    padding-right: 240px;
+    padding-left: 240px;
+    gap: 15px;
+    padding-top: 25px;
+}
+
+.img-primary {
+    width: 200px;
+    height: 200px;
+
+}
+
+.img-primary-description {
+    color: #534C64;
+    font-size: .825rem;
+    font-weight: 500;
+}
 
 /* responsive devices */
 /* mobile device */
@@ -222,16 +243,24 @@
     .nav-container,
     .nav-about-info,
     .banner-info,
-    .middle-banner-container {
+    .middle-banner-container,
+    .banner-img-container-info
+    {
         flex-direction: column;
         padding-top: 20px;
     }
+    .banner-img-container-info{
+        align-items: center;
+    }
 
-    .middle-banner-container-info {
+    .middle-banner-container-info
+    {
         text-align: center;
     }
 
-    .middle-banner-container {
+    .middle-banner-container,
+    .banner-img-container-info
+    {
         padding-left: 100px;
         padding-right: 100px;
     }
@@ -246,14 +275,16 @@
         margin-top: 10px;
         align-items: center;
     }
+
     .online-games-title,
-    .funny
-    {
+    .funny {
         font-size: 1.25rem;
     }
-    .online-games-description{
+
+    .online-games-description {
         font-size: .525rem;
     }
+
     .banner-info {
         flex-direction: column-reverse;
 
@@ -283,10 +314,17 @@
 
     }
 
-    .middle-banner-container {
+    .middle-banner-container,
+    .banner-img-container-info
+    {
         flex-direction: column;
     }
+    .banner-img-container-info{
+        padding-left: 150px;
+        padding-right: 150px;
+        
 
+    }
     .banner-img img {
         height: 380px;
     }
