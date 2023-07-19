@@ -182,6 +182,38 @@
     font-weight: 700;
 }
 
+/*online games info styles  */
+.online-games-info {
+    max-width: 800px;
+    text-align: center;
+    margin: 0 auto;
+    padding-top: 100px;
+
+}
+
+.online-games-title {
+    font-size: 2.25rem;
+    font-weight: 700;
+    color: #0B0223;
+}
+
+.funny {
+    font-size: 2.25rem;
+    font-weight: 700;
+    color: #0B0223;
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.online-games-description {
+    color: #534C64;
+    font-size: .825rem;
+    font-weight: 400;
+    padding-top: 4px;
+}
+
 
 /* responsive devices */
 /* mobile device */
@@ -194,9 +226,11 @@
         flex-direction: column;
         padding-top: 20px;
     }
-    .middle-banner-container-info{
+
+    .middle-banner-container-info {
         text-align: center;
     }
+
     .middle-banner-container {
         padding-left: 100px;
         padding-right: 100px;
@@ -212,7 +246,14 @@
         margin-top: 10px;
         align-items: center;
     }
-
+    .online-games-title,
+    .funny
+    {
+        font-size: 1.25rem;
+    }
+    .online-games-description{
+        font-size: .525rem;
+    }
     .banner-info {
         flex-direction: column-reverse;
 
@@ -221,15 +262,18 @@
     .middle-banner-container-img img {
         height: 200px;
     }
-    .middle-banner-container-heading .unlease{
-        font-size: .825rem; 
+
+    .middle-banner-container-heading .unlease {
+        font-size: .825rem;
     }
-    .banner-img img{
+
+    .banner-img img {
         height: 300px;
     }
-.banner-container {
-    padding-top: 40px;
-}
+
+    .banner-container {
+        padding-top: 40px;
+    }
 }
 
 /* tablet or medium device */
@@ -238,16 +282,19 @@
         flex-direction: column-reverse;
 
     }
-    .middle-banner-container{
+
+    .middle-banner-container {
         flex-direction: column;
     }
 
     .banner-img img {
         height: 380px;
     }
-    .middle-banner-container-info{
+
+    .middle-banner-container-info {
         text-align: center;
     }
+
     .banner-container {
         padding-top: 40px;
     }
